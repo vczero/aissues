@@ -1,0 +1,25 @@
+1. 开发环境搭建
+1） PHP
+2)  Apache 或者 Nginx
+3)  安装 Mysql，修改 api/utils.php 文件中：
+    private $_host = '127.0.0.1'; /*根据数据库地址*/
+    private $_username = 'root'; /*线上环境重新设定*/
+    private $_port = 3306; /*线上环境重新设定*/
+    private $_password = 'root'; /*线上环境重新设定*/
+    private $_db_name = 'aissues_xiaoshu';/*线上环境重新设定*/
+
+4） 建立数据库aissues_xiaoshu，导入数据
+5） 默认管理员账户，用户名：123@aissues.com 密码：123456
+6） 后台管理登录地址：127.0.0.1/base/login.php
+
+
+2. 线上环境
+如果需要做线上环境，必须修改如下几个文件
+1) 服务器 Mysql 用户名、端口、密码
+2) 修改 api/utils.php 中的：     
+    private $_host = '127.0.0.1'; /*根据数据库地址*/
+    private $_username = 'root'; /*线上环境重新设定*/
+    private $_port = 3306; /*线上环境重新设定*/
+    private $_password = 'root'; /*线上环境重新设定*/
+    private $_db_name = 'aissues_xiaoshu';/*线上环境重新设定*/
+3）修改后台管理的用户邮箱和密码。根据代码给出的算法生成。    

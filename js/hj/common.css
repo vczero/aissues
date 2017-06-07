@@ -1,0 +1,33 @@
+.hljs-keyword{
+  color: #A71D5D;
+}
+.hljs-built_in{
+  color: #0071A6;
+}
+.hljs-comment{
+	color: #989A98;
+}
+.hljs-string{
+	color: #399D3E;
+}
+.hljs-name{
+	color: #AC2A66;
+}
+.hljs-tag{
+	color: #AC2A66;
+}
+.hljs-template-variable{
+	color: #A71D5D;
+}
+.hljs-function .hljs-keyword{
+	color: #A71D5D;
+}
+.hljs-params{
+
+}
+.hljs-number{
+	color: #F5871E;
+} 
+.hljs-attribute{
+	color:#C99E00;
+}
